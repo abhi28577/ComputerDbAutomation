@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="org.computerdb.testset.homepagetest"/>
+      <class name="org.computerdb.testset.addcomputerpagetest"/>      
+      <class name="org.computerdb.testset.searchcomputertest"/>
+      <class name="org.computerdb.testset.deletecomputernametest"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,4 @@
+org/computerdb/testset/homepagetest.class
+org/computerdb/testset/searchcomputertest.class
+org/computerdb/testset/addcomputerpagetest.class
+org/computerdb/testset/deletecomputernametest.class

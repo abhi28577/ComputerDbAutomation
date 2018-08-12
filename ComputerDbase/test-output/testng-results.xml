@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10312" started-at="2018-08-12T22:18:30Z" finished-at="2018-08-12T22:18:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10312" started-at="2018-08-12T22:18:30Z" finished-at="2018-08-12T22:18:40Z">
+      <class name="org.computerdb.testset.searchcomputertest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.searchcomputertest@77cd7a0]" name="setUp" is-config="true" duration-ms="5524" started-at="2018-08-12T22:18:31Z" finished-at="2018-08-12T22:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateSearchComputer(java.lang.String)[pri:1, instance:org.computerdb.testset.searchcomputertest@77cd7a0]" name="ValidateSearchComputer" duration-ms="3711" started-at="2018-08-12T22:18:36Z" data-provider="SearchComputerName" finished-at="2018-08-12T22:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchComputer -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.searchcomputertest@77cd7a0]" name="teardown" is-config="true" duration-ms="449" started-at="2018-08-12T22:18:40Z" finished-at="2018-08-12T22:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.computerdb.testset.searchcomputertest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

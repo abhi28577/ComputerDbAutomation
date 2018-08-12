@@ -1,0 +1,6 @@
+org/computerdb/base/parentpage.class
+org/computerdb/pages/homepage.class
+org/computerdb/pages/addcomputerpage.class
+org/computerdb/util/testutil.class
+org/computerdb/pages/deletecomputername.class
+org/computerdb/pages/searchcomputer.class

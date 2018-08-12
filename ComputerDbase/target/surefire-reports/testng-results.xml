@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="28" passed="28">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="243061" started-at="2018-08-12T22:19:10Z" finished-at="2018-08-12T22:23:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="243061" started-at="2018-08-12T22:19:10Z" finished-at="2018-08-12T22:23:13Z">
+      <class name="org.computerdb.testset.searchcomputertest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.searchcomputertest@2c9f9fb0]" name="setUp" is-config="true" duration-ms="3774" started-at="2018-08-12T22:19:27Z" finished-at="2018-08-12T22:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateSearchComputer(java.lang.String)[pri:1, instance:org.computerdb.testset.searchcomputertest@2c9f9fb0]" name="ValidateSearchComputer" duration-ms="3624" started-at="2018-08-12T22:19:31Z" data-provider="SearchComputerName" finished-at="2018-08-12T22:19:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchComputer -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.searchcomputertest@2c9f9fb0]" name="teardown" is-config="true" duration-ms="161" started-at="2018-08-12T22:19:35Z" finished-at="2018-08-12T22:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.computerdb.testset.searchcomputertest -->
+      <class name="org.computerdb.testset.homepagetest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="5746" started-at="2018-08-12T22:19:10Z" finished-at="2018-08-12T22:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateSearchbox()[pri:1, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidateSearchbox" duration-ms="3049" started-at="2018-08-12T22:19:16Z" finished-at="2018-08-12T22:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchbox -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="275" started-at="2018-08-12T22:19:19Z" finished-at="2018-08-12T22:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="4586" started-at="2018-08-12T22:19:54Z" finished-at="2018-08-12T22:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateFilterButton()[pri:2, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidateFilterButton" duration-ms="3039" started-at="2018-08-12T22:19:59Z" finished-at="2018-08-12T22:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFilterButton -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="183" started-at="2018-08-12T22:20:02Z" finished-at="2018-08-12T22:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="4155" started-at="2018-08-12T22:20:09Z" finished-at="2018-08-12T22:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateAddComputerButton()[pri:3, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidateAddComputerButton" duration-ms="3043" started-at="2018-08-12T22:20:14Z" finished-at="2018-08-12T22:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAddComputerButton -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="149" started-at="2018-08-12T22:20:17Z" finished-at="2018-08-12T22:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="4274" started-at="2018-08-12T22:20:26Z" finished-at="2018-08-12T22:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateSubheadTitle()[pri:4, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidateSubheadTitle" duration-ms="3105" started-at="2018-08-12T22:20:30Z" finished-at="2018-08-12T22:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSubheadTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="165" started-at="2018-08-12T22:20:33Z" finished-at="2018-08-12T22:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="4169" started-at="2018-08-12T22:20:42Z" finished-at="2018-08-12T22:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateComputerNameField()[pri:5, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidateComputerNameField" duration-ms="3080" started-at="2018-08-12T22:20:46Z" finished-at="2018-08-12T22:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateComputerNameField -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="133" started-at="2018-08-12T22:20:49Z" finished-at="2018-08-12T22:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="4157" started-at="2018-08-12T22:20:57Z" finished-at="2018-08-12T22:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateIntroducedField()[pri:6, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidateIntroducedField" duration-ms="3048" started-at="2018-08-12T22:21:01Z" finished-at="2018-08-12T22:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateIntroducedField -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="133" started-at="2018-08-12T22:21:04Z" finished-at="2018-08-12T22:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="4165" started-at="2018-08-12T22:21:12Z" finished-at="2018-08-12T22:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateDiscontinuedField()[pri:7, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidateDiscontinuedField" duration-ms="3052" started-at="2018-08-12T22:21:17Z" finished-at="2018-08-12T22:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDiscontinuedField -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="135" started-at="2018-08-12T22:21:20Z" finished-at="2018-08-12T22:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="4188" started-at="2018-08-12T22:21:28Z" finished-at="2018-08-12T22:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateCompanyField()[pri:8, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidateCompanyField" duration-ms="3054" started-at="2018-08-12T22:21:32Z" finished-at="2018-08-12T22:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCompanyField -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="129" started-at="2018-08-12T22:21:35Z" finished-at="2018-08-12T22:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="5046" started-at="2018-08-12T22:21:43Z" finished-at="2018-08-12T22:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidatePreviousLink()[pri:9, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidatePreviousLink" duration-ms="3053" started-at="2018-08-12T22:21:48Z" finished-at="2018-08-12T22:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePreviousLink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="132" started-at="2018-08-12T22:21:51Z" finished-at="2018-08-12T22:21:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="4148" started-at="2018-08-12T22:22:00Z" finished-at="2018-08-12T22:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateNextLink()[pri:10, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidateNextLink" duration-ms="3051" started-at="2018-08-12T22:22:04Z" finished-at="2018-08-12T22:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNextLink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="193" started-at="2018-08-12T22:22:07Z" finished-at="2018-08-12T22:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="5216" started-at="2018-08-12T22:22:16Z" finished-at="2018-08-12T22:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidatePageDisplay()[pri:11, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidatePageDisplay" duration-ms="3054" started-at="2018-08-12T22:22:22Z" finished-at="2018-08-12T22:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePageDisplay -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="206" started-at="2018-08-12T22:22:25Z" finished-at="2018-08-12T22:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="setup" is-config="true" duration-ms="4262" started-at="2018-08-12T22:22:54Z" finished-at="2018-08-12T22:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateAddNewComputerPage()[pri:12, instance:org.computerdb.testset.homepagetest@52af6cff]" name="ValidateAddNewComputerPage" duration-ms="3496" started-at="2018-08-12T22:22:58Z" finished-at="2018-08-12T22:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAddNewComputerPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.homepagetest@52af6cff]" name="teardown" is-config="true" duration-ms="133" started-at="2018-08-12T22:23:02Z" finished-at="2018-08-12T22:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.computerdb.testset.homepagetest -->
+      <class name="org.computerdb.testset.addcomputerpagetest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="3732" started-at="2018-08-12T22:19:19Z" finished-at="2018-08-12T22:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateComputerNameText()[pri:1, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateComputerNameText" duration-ms="3611" started-at="2018-08-12T22:19:23Z" finished-at="2018-08-12T22:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateComputerNameText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="319" started-at="2018-08-12T22:19:26Z" finished-at="2018-08-12T22:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="3727" started-at="2018-08-12T22:20:02Z" finished-at="2018-08-12T22:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateIntroducedText()[pri:2, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateIntroducedText" duration-ms="3503" started-at="2018-08-12T22:20:06Z" finished-at="2018-08-12T22:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateIntroducedText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="211" started-at="2018-08-12T22:20:09Z" finished-at="2018-08-12T22:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="5136" started-at="2018-08-12T22:20:17Z" finished-at="2018-08-12T22:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateDiscontinuedText()[pri:3, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateDiscontinuedText" duration-ms="3485" started-at="2018-08-12T22:20:22Z" finished-at="2018-08-12T22:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDiscontinuedText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="129" started-at="2018-08-12T22:20:25Z" finished-at="2018-08-12T22:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="4981" started-at="2018-08-12T22:20:33Z" finished-at="2018-08-12T22:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateCompanyDropDown()[pri:4, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateCompanyDropDown" duration-ms="3859" started-at="2018-08-12T22:20:38Z" finished-at="2018-08-12T22:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCompanyDropDown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="151" started-at="2018-08-12T22:20:42Z" finished-at="2018-08-12T22:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="4172" started-at="2018-08-12T22:20:49Z" finished-at="2018-08-12T22:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateCreateComputerButt()[pri:5, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateCreateComputerButt" duration-ms="3481" started-at="2018-08-12T22:20:54Z" finished-at="2018-08-12T22:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateComputerButt -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="128" started-at="2018-08-12T22:20:57Z" finished-at="2018-08-12T22:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="4197" started-at="2018-08-12T22:21:05Z" finished-at="2018-08-12T22:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateCancelButt()[pri:6, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateCancelButt" duration-ms="3490" started-at="2018-08-12T22:21:09Z" finished-at="2018-08-12T22:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCancelButt -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="131" started-at="2018-08-12T22:21:12Z" finished-at="2018-08-12T22:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="4073" started-at="2018-08-12T22:21:20Z" finished-at="2018-08-12T22:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateSubHeadTitle()[pri:7, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateSubHeadTitle" duration-ms="3496" started-at="2018-08-12T22:21:24Z" finished-at="2018-08-12T22:21:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSubHeadTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="186" started-at="2018-08-12T22:21:27Z" finished-at="2018-08-12T22:21:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="4301" started-at="2018-08-12T22:21:35Z" finished-at="2018-08-12T22:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateRequiredCaptionText()[pri:8, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateRequiredCaptionText" duration-ms="3960" started-at="2018-08-12T22:21:39Z" finished-at="2018-08-12T22:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRequiredCaptionText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="225" started-at="2018-08-12T22:21:43Z" finished-at="2018-08-12T22:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="4260" started-at="2018-08-12T22:21:52Z" finished-at="2018-08-12T22:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateIntroducedDateCaption()[pri:9, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateIntroducedDateCaption" duration-ms="3602" started-at="2018-08-12T22:21:56Z" finished-at="2018-08-12T22:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateIntroducedDateCaption -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="139" started-at="2018-08-12T22:21:59Z" finished-at="2018-08-12T22:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="5693" started-at="2018-08-12T22:22:07Z" finished-at="2018-08-12T22:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateDiscontinuedDateCaption()[pri:10, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateDiscontinuedDateCaption" duration-ms="3487" started-at="2018-08-12T22:22:13Z" finished-at="2018-08-12T22:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDiscontinuedDateCaption -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="168" started-at="2018-08-12T22:22:16Z" finished-at="2018-08-12T22:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="4144" started-at="2018-08-12T22:22:25Z" finished-at="2018-08-12T22:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateCreateComputerNegativeData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateCreateComputerNegativeData" duration-ms="6426" started-at="2018-08-12T22:22:29Z" data-provider="CreateComputerNegativeTestData" finished-at="2018-08-12T22:22:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateComputerNegativeData -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="125" started-at="2018-08-12T22:22:35Z" finished-at="2018-08-12T22:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="4335" started-at="2018-08-12T22:22:36Z" finished-at="2018-08-12T22:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateCreateComputerNegativeData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateCreateComputerNegativeData" duration-ms="4595" started-at="2018-08-12T22:22:40Z" data-provider="CreateComputerNegativeTestData" finished-at="2018-08-12T22:22:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[08-01-19999]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateComputerNegativeData -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="162" started-at="2018-08-12T22:22:45Z" finished-at="2018-08-12T22:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="4611" started-at="2018-08-12T22:22:45Z" finished-at="2018-08-12T22:22:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateCreateComputerNegativeData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateCreateComputerNegativeData" duration-ms="4308" started-at="2018-08-12T22:22:49Z" data-provider="CreateComputerNegativeTestData" finished-at="2018-08-12T22:22:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2000-01-01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[08-01-2018]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateComputerNegativeData -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="145" started-at="2018-08-12T22:22:54Z" finished-at="2018-08-12T22:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="setUp" is-config="true" duration-ms="4985" started-at="2018-08-12T22:23:02Z" finished-at="2018-08-12T22:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateCreateComputerPositiveData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="ValidateCreateComputerPositiveData" duration-ms="6046" started-at="2018-08-12T22:23:07Z" data-provider="CreateComputerPositiveTestData" finished-at="2018-08-12T22:23:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2000-01-01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2017-08-31]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateComputerPositiveData -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.addcomputerpagetest@735b478]" name="teardown" is-config="true" duration-ms="124" started-at="2018-08-12T22:23:13Z" finished-at="2018-08-12T22:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.computerdb.testset.addcomputerpagetest -->
+      <class name="org.computerdb.testset.deletecomputernametest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.computerdb.testset.deletecomputernametest@2096442d]" name="setUp" is-config="true" duration-ms="4140" started-at="2018-08-12T22:19:35Z" finished-at="2018-08-12T22:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateDeleteComputer(java.lang.String)[pri:1, instance:org.computerdb.testset.deletecomputernametest@2096442d]" name="ValidateDeleteComputer" duration-ms="14940" started-at="2018-08-12T22:19:39Z" data-provider="SearchComputerName" finished-at="2018-08-12T22:19:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDeleteComputer -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.computerdb.testset.deletecomputernametest@2096442d]" name="teardown" is-config="true" duration-ms="241" started-at="2018-08-12T22:19:54Z" finished-at="2018-08-12T22:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.computerdb.testset.deletecomputernametest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
